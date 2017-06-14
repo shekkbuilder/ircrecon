@@ -1,3 +1,8 @@
+Original written by Riku Voipio available on irssi.org.  
+I planned to make a web frontend with features such as thumbnails for images and summaries on mouseover.  
+Primarily for links but started adding other regular expressions that may yield interesting results.  
+
+##create database  
 create database ircrecon_db;  
 use ircrecon_db;  
 create table event (nick char(10),target char(255),line char(255));  
