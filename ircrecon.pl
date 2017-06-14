@@ -16,12 +16,12 @@ use vars qw($VERSION %IRSSI);
 
 $VERSION = "1.0.1";
 %IRSSI = (
-        authors     => "Riku Voipio, lite",
-        contact     => "riku.voipio\@iki.fi",
+        authors     => "Riku Voipio, lite, @r3l0z",
+        contact     => "riku.voipio\@iki.fi, @r3l0z",
         name        => "irssi recon",
         description => "logs url's(& more) to mysql database",
         license     => "GPLv2",
-        url         => "http://nchip.ukkosenjyly.mine.nu/irssiscripts/",
+        url         => " https://github.com/shekkbuilder/ircrecon -- original: http://nchip.ukkosenjyly.mine.nu/irssiscripts/",
     );
 
 $dsn = 'DBI:mysql:ircrecon_db:localhost';
